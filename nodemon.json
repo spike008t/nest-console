@@ -1,0 +1,15 @@
+{
+    "verbose": true,
+    "ignore": [ 
+        "**/*.spec.ts", 
+        "**/*.test.ts", 
+        ".git", 
+        "node_modules", 
+        "dist"
+    ],
+    "watch": [
+        "src"
+    ],
+    "exec": "npm run build",
+    "ext": "ts"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "nest-console",
+  "version": "0.0.1",
+  "description": "A nest module to enable a console",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build tsconfig.build.json",
+    "watch": "nodemon"
+  },
+  "author": "Tieu-Philippe KHIM <khim.tieu.philippe@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/vorpal": "^1.12.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.18.2",
+    "supertest": "^4.0.2",
+    "ts-jest": "25.2.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.4"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^6.0.0",
+    "@nestjs/core": "^6.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.4.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "@nestjs/common": "^6.11.11",
+    "@nestjs/core": "^6.11.11",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.1",
+    "rxjs": "^6.5.4",
+    "vorpal": "^1.12.0"
+  }
+}
